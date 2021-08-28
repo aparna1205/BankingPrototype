@@ -1,0 +1,141 @@
+*{
+box-sizing: border-box;
+margin:0;
+list-style:none;
+text-decoration:none;
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+a:hover,a:active{ 
+	color:white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.body{
+	background-image: url("home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif !important;
+} 
+.body2{
+	background-color: #3c95a8;
+	font-family: 'Oswald', sans-serif !important;
+}
+.header{
+	max-height: 100px;
+	min-height: 80px;
+	margin:0px; 
+	background-color: #ffa46b;
+	color:blue;
+} 
+.header-left{
+	height:80px;
+	width:30%;
+	float: left;
+}
+.logo{
+	background-image:url("logo.png");
+	float:left;
+	background-size: cover;
+	height:80px;
+	width:195px;
+	margin:0px 20px;
+}
+.header-right li{
+	float:right;
+	text-decoration: none;
+	list-style: none;
+	border-left:2px solid black;
+	margin-top:25px;
+	margin-right: 10px;
+} 
+.header-right{
+	font-size: 25px;
+	margin-right: 50px;
+}
+.form{
+	margin: 15px;
+}
+.h1{
+	margin-top: 80px;
+}
+.content{
+	height:700px;
+	width:100%;
+	font-size: 20px;
+	text-align:center;
+}
+.content2{
+	height:600px;
+	width:100%;
+	font-size: 20px;
+	color:white;
+}
+.transac{
+    margin-bottom:150px;
+    margin-top:25px;
+    font-size:25px;
+    text-align:none;
+}
+.profile{
+	border: 2px solid blue;
+	color:black;
+	width:40%;
+	margin:auto;
+	float:none;
+} 
+.p{
+	margin-top:80px;
+	margin-bottom:10px;
+	font-size: 25px;
+	float:none;
+	clear:both;
+	margin-left:25px;
+}
+h2{
+	margin:20px;
+	border-bottom: 2px solid black;
+}
+.button{
+	clear: both;
+	text-align: center;
+	margin:20px;
+}
+
+.profile div{
+	margin:20px;
+}
+.transaction div{
+	margin:20px;
+}
+.transaction{
+	border: 2px solid blue;
+	color:black;
+	width:40%;
+	margin:auto;
+	margin-top:100px;
+	float:none;
+	text-align:center;
+}
+.footer{
+	max-height: 90px;
+	min-height: 80px;
+	margin-top:80px; 
+	background-color: #ffa46b;
+	color:black;
+}
+.footer-left{
+	height:80px;
+	width:30%;
+	float: left;
+}
+.footer-right{
+    line-height: 80px;
+	background-color:#ffa46b;
+	font-size: 30px;
+	float:right;
+	margin-right:40px;
+
+}

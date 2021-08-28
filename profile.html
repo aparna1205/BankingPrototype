@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="home.css"> 
+</head>
+<body>
+<header class="header">
+	<div class="header-left">
+		<div class="logo"></div>
+	</div>
+	<div class="header-right">
+	  <ul>
+	    <li><a href="transactions.html"> &nbsp Transactions &nbsp </a></li>
+	    <li><a href="profile.html"> &nbsp Account &nbsp </a></li>
+	    <li><a href="index.html"> &nbsp Home &nbsp</a></li>
+	  </ul>
+	</div>
+</header>
+<div class="content"> 
+	<form class="form" action="index.php" method="post">
+		<label>Select Your Name</label>
+		<select id="name">
+			<option value="Aparna">Aparna</option>
+			<option value="Keerthi Reddy">Keerthi Reddy</option>
+			<option value="Pavani">Pavani</option>
+			<option value="K.poojitha">K.poojitha</option>
+			<option value="Kamal">Kamal</option>
+			<option value="Charan Teja">Charan Teja</option>
+			<option value="Vikramaditya">Vikramaditya</option>
+			<option value="Sree vidya">Sree vidya</option>
+			<option value="Shravani">Shravani</option>
+			<option value="Shreeja">Shreeja</option>
+		</select>
+		<input type="submit" id="profile_btn" value="proceed"/><br>
+	</form>
+     <div class=profile>
+     	<h2>Profile</h2>
+     	<div><span>Name :</span> <span></span></div>
+     	<div><span>Gmail_id</span> <span></span></div>
+     	<div><span>account no.</span> <span></span></div>
+     </div>
+     <div class=transaction>
+     	<h2>Transation History</h2>
+
+     </div>
+     <div class="button "><input type="button" id="transaction_btn" value="send money"/><br>
+     </div>
+</div>
+<footer class="footer">
+	<div class="footer-left">
+	    <div class="logo"></div>
+	</div>
+	<div class="footer-right">
+     <span>Thank you!</span>
+     <span>Have a great day.</span> 
+  </div>
+</footer>
+</body>
+</html>
